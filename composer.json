@@ -1,7 +1,7 @@
 {
 	"name": "zjango/phtml",
 	"license": "MIT",
-	"description": "Html Parser",
+	"description": "simple_html_dom PHP Parser for Laravel",
 	"homepage": "https://github.com/zjango/Phtml",
 	"authors": [
 		{
