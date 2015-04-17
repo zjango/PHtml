@@ -1,0 +1,28 @@
+{
+	"name": "zjango/phtml",
+	"license": "MIT",
+	"description": "Html Parser",
+	"homepage": "https://github.com/zjango/Phtml",
+	"authors": [
+		{
+			"name": "zjango",
+			"email": "zjango@icloud.com",
+			"homepage": "",
+			"role": "Developer"
+		}
+	],
+	"require": {
+        "zjango/laracurl": ">=1.1.1",
+		"ext-dom": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Zjango\\Phtml\\": "src/"
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+
+}
