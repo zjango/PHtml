@@ -15,11 +15,11 @@
         "zjango/laracurl": ">=1.1.1",
 		"ext-dom": "*"
 	},
-	"autoload": {
-		"psr-4": {
-			"Zjango\\Phtml\\": "src/"
-		}
-	},
+    "autoload": {
+        "classmap": [
+            "src/Zjango"
+            ]
+    },
 	"config": {
 		"preferred-install": "dist"
 	},
